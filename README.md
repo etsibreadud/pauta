@@ -49,6 +49,15 @@ Pauta é um MVP web (Next.js + Supabase) para monitorar pautas de agências regu
    npm run dev
    ```
 
+## Deploy na Vercel (sem instalar localmente)
+
+1. Suba este repositório para o GitHub.
+2. Na Vercel, clique em **Add New → Project** e selecione o repo.
+3. Em **Environment Variables**, configure as variáveis do `.env.example`.
+4. Clique em **Deploy** e aguarde o build.
+
+> Dica: o endpoint de upload/análise usa runtime Node.js. Em Vercel ele já é compatível.
+
 ## Estrutura de pastas
 
 ```
